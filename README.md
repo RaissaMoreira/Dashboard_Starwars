@@ -4,6 +4,8 @@
 
 :star: Built using HTML, CSS, JS and [_swapi.dev_](https://swapi.dev/);
 
+:star: See more details [HERE](https://raissamoreira.github.io/Dashboard_Starwars/)!!!
+
 ## Technologies used 💻
 - [JQuery](https://jquery.com/)
 - [Axios](https://github.com/axios/axios)
