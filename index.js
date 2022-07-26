@@ -3,9 +3,6 @@ const luasContador = document.getElementById("luas");
 const planetasContador = document.getElementById("planetas");
 const navesContador = document.getElementById("naves");
 
-preencherContadores();
-preencherTabela();
-
 google.charts.load("current", { packages: ["corechart"] });
 google.charts.setOnLoadCallback(desenharGrafico);
 
@@ -67,3 +64,6 @@ async function preencherTabela() {
 function swapiGet(param) {
   return axios.get(`https://swapi.dev/api/${param}`);
 }
+
+preencherContadores();
+preencherTabela();
